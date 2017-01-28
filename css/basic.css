@@ -1,0 +1,89 @@
+.nav_button {
+  background-color: white; /* Green */
+  border: none;
+  border-radius: 3px;
+  color: gray;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 1px 1px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+  float: left;
+}
+
+.nav_button:hover {
+  transition-duration: 0.6s;
+  background-color: lightblue;
+  color: white;
+}
+
+.section_grp:after, .section_grp:before {
+  content: "";
+  display: table;
+}
+
+.section_grp:after {
+  clear:both;
+}
+
+.section_grp {
+  float: left;
+  width: 1344px;
+  height: 616px;
+  clear: both;
+  *zoom: 1;
+  #background-color: gray;
+}
+
+section {
+  float:left;
+  width: 1024px;
+  height: 576px;
+  margin: 10px 10px 10px 10px;
+  /*position:relative;
+  top: 50%;
+  left: 50%;
+  display: table;
+  float: left;
+  clear: left;*/
+  background-color: lightgray;
+  border-radius: 3px;
+  border-style: solid;
+  border: 2px;
+}
+
+aside {
+  float: right;
+  width: 290px;
+  height: 576px;
+  margin: 10px 10px 10px 0px;
+  /*position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -288px 0 0 522px;
+  clear: right;*/
+  background-color: lightgray;
+  border-radius: 3px;
+  border-style: hidden;
+}
+
+footer a {
+  color: lightgray;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+footer {
+  clear: both;
+  height: 10%;
+  font-size: 16px;
+  font-family: serif;
+  color: lightgray;
+  margin: 10px 0px 10px 0px;
+}
