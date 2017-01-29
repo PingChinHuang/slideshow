@@ -1,45 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> </title>
+  <title>Ping-Chin Huang</title>
   <link rel="stylesheet" href="css/basic.css">
-  <!--
-  <style type="text/css">
-    p {
-      background-color: red;
-      font-size: 16px;
-    }
-
-    nav {
-      background-color: green;
-    }
-
-    section {
-
-      width: 30%;
-      background-color: blue;
-    }
-
-    footer {
-      background-color: yellow;
-    }
-
-    sidebar {
-      background-color: black;
-    }
-  </style>
--->
+  <script src="js/index.js"></script>
 </head>
-<body>
+<body onload="load_profile()">
   <nav>
-    <button class="nav_button">PROFILE</button>
-    <button class="nav_button">EXPERIENCE</button>
-    <button class="nav_button">EDUCATION</button>
-    <button class="nav_button">CONTACT</button>
+    <button class="nav_button" id="btn_profile" onclick="btn_onclick('profile')">PROFILE</button>
+    <button class="nav_button" id="btn_experience" onclick="btn_onclick('experience')">EXPERIENCE</button>
+    <button class="nav_button" id="btn_education" onclick="btn_onclick('education')">EDUCATION</button>
+    <button class="nav_button" id="btn_contact" onclick="btn_onclick('contact')">CONTACT</button>
   </nav>
   <div class="section_grp">
-  <section>This is section</section>
-  <aside> This is sidebar </aside>
+  <section id="presentation">This is section</section>
+  <aside id="pagelist"> This is sidebar </aside>
   <footer>
     <p>
       <center>

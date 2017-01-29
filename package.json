@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/PingChinHuang/slideshow/issues"
   },
-  "homepage": "https://github.com/PingChinHuang/slideshow#readme"
+  "homepage": "https://github.com/PingChinHuang/slideshow#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
